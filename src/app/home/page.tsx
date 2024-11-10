@@ -10,7 +10,7 @@ export default function Home() {
   
         {/* First Paragraph */}
         <p className="paragraph">
-          As a beginner, my journey begins with a spark of curiosity. Maybe it is the allure of creating something from scratch, or the desire to understand the technology that powers our world. You start with basics, perhaps choosing a language like TypeScript for its simplicity and readability. ☺
+          As a beginner, my journey begins with a spark of curiosity. Maybe it(&quot)s the allure of creating something from scratch, or the desire to understand the technology that powers our world. You start with basics, perhaps choosing a language like TypeScript for its simplicity and readability. ☺
         </p>
   
         {/* Hello World Section */}

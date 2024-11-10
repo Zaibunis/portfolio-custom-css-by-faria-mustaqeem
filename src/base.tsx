@@ -1,7 +1,7 @@
 // Home.tsx
 "use client";
 
-import Navbar from './navbar';
+
 import Typed from 'typed.js';
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';

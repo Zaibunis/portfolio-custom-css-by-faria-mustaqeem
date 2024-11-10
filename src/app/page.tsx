@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Navbar from "@/navbar";
 import Base from "../base"
 import Home from "./home/page"

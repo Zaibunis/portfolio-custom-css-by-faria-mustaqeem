@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
-import Image from 'next/image';
+
 
 interface AboutProps {
   // Add any custom props here if needed
@@ -78,7 +78,7 @@ const About: React.FC<AboutProps> = () => {
             <br />
             What excites me the most about web development is the endless opportunities to solve problems and
             create something impactful. I am constantly learning and staying up-to-date with the latest
-            technologies to enhance my skill set. When I'm not coding, I enjoy traveling, exploring new places,
+            technologies to enhance my skill set. When I am not coding, I enjoy traveling, exploring new places,
             and diving deeper into coding.
           </p>
         </section>
