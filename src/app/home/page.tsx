@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Home() {
     return (
       <div className="container">
@@ -9,7 +10,7 @@ export default function Home() {
   
         {/* First Paragraph */}
         <p className="paragraph">
-          As a beginner, my journey begins with a spark of curiosity. Maybe it's the allure of creating something from scratch, or the desire to understand the technology that powers our world. You start with basics, perhaps choosing a language like TypeScript for its simplicity and readability. ☺
+          As a beginner, my journey begins with a spark of curiosity. Maybe it is the allure of creating something from scratch, or the desire to understand the technology that powers our world. You start with basics, perhaps choosing a language like TypeScript for its simplicity and readability. ☺
         </p>
   
         {/* Hello World Section */}
@@ -17,7 +18,7 @@ export default function Home() {
           The first steps are filled with discovery and small triumphs. You write your first lines of code, and the screen echoes back 🎗"Hello, World!"🎗
         </p>
         <div className="image-container">
-          <img src="/OIP.jpeg" alt="Hello World" className="image" />
+          <Image src="/OIP.jpeg" alt="Hello World" className="image" />
         </div>
   
         {/* Challenges Section */}
@@ -25,7 +26,7 @@ export default function Home() {
           Along the way, you encounter challenges. Syntax errors and bugs test your patience, but they also sharpen your problem-solving skills. Every obstacle becomes a learning opportunity. 💗
         </p>
         <div className="image-container">
-          <img src="/tttt.jpeg" alt="Challenges" className="image" />
+          <Image src="/tttt.jpeg" alt="Challenges" className="image" />
         </div>
   
       </div>

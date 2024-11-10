@@ -1,6 +1,7 @@
 // src/app/projects/page.tsx
 
 import React from 'react';
+import Image from 'next/image';
 
 interface Project {
   title: string;
@@ -29,9 +30,9 @@ export default function Projects() {
         <h2 className="experience-title">Experience</h2>
         <div className="experience-content">
           <p className="experience-text">
-            As a dedicated and results-oriented junior developer, I'm passionate about crafting innovative and user-friendly web applications. With a strong foundation in coding and design, I strive to continually improve my skills and stay up-to-date with the latest technologies. In my previous role as a web developer, I've successfully contributed to various projects. My ability to quickly learn new technologies and adapt to changing requirements has enabled me to consistently deliver high-quality solutions.
+            As a dedicated and results-oriented junior developer, I am passionate about crafting innovative and user-friendly web applications. With a strong foundation in coding and design, I strive to continually improve my skills and stay up-to-date with the latest technologies. In my previous role as a web developer, I have successfully contributed to various projects. My ability to quickly learn new technologies and adapt to changing requirements has enabled me to consistently deliver high-quality solutions.
           </p>
-          <p className="experience-text">I'm eager to continue expanding my skills and contribute to exciting projects in the field of web development.</p>
+          <p className="experience-text">I am eager to continue expanding my skills and contribute to exciting projects in the field of web development.</p>
         </div>
       </section>
 
@@ -58,7 +59,7 @@ export default function Projects() {
 function ProjectCard({ project }: { project: Project }) {
   return (
     <div className="project-card">
-      <img src={project.imageUrl} alt={project.title} className="project-image" />
+      <Image src={project.imageUrl} alt={project.title} className="project-image" />
       <div className="project-content">
         <h2 className="project-title">{project.title}</h2>
         <button className="project-button">

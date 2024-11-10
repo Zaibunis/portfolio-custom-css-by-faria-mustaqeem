@@ -5,6 +5,7 @@ import Navbar from './navbar';
 import Typed from 'typed.js';
 import { useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Base() {
   const typedElement = useRef(null);
@@ -55,7 +56,7 @@ export default function Base() {
             </div>
           </div>
           <div className="image-container">
-            <img
+            <Image
               src="/bg.png"
               alt="Background"
               className="background-image"

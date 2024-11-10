@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import Typed from 'typed.js';
+import Image from 'next/image';
 
 interface AboutProps {
   // Add any custom props here if needed
@@ -72,11 +73,11 @@ const About: React.FC<AboutProps> = () => {
         <section className="additional-info">
           <p className="info-text">
             I have a deep love for coding and designing clean, responsive websites that provide great user
-            experiences. Currently, I'm focused on honing my skills in HTML, CSS, JavaScript, and TypeScript,
+            experiences. Currently, I am focused on honing my skills in HTML, CSS, JavaScript, and TypeScript,
             with a long-term goal of becoming a full-stack developer.
             <br />
             What excites me the most about web development is the endless opportunities to solve problems and
-            create something impactful. I'm constantly learning and staying up-to-date with the latest
+            create something impactful. I am constantly learning and staying up-to-date with the latest
             technologies to enhance my skill set. When I'm not coding, I enjoy traveling, exploring new places,
             and diving deeper into coding.
           </p>

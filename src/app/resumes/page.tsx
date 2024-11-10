@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 interface ResumeProject {
   title: string;
@@ -49,7 +50,7 @@ export default function Resume() {
 function ResumeCard({ project }: { project: ResumeProject }) {
   return (
     <div className="resume-card">
-      <img src={project.imageUrl} alt={project.title} className="resume-image" />
+      <Image src={project.imageUrl} alt={project.title} className="resume-image" />
 
       <h2 className={`resume-card-title ${project.title === 'Static Resume Builder' ? 'static-title' : ''}`}>
         {project.title}
